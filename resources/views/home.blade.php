@@ -52,7 +52,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_3">Portfolio</a>
+                    <a class="nav-link click-scroll" href="#section_3">Projecten</a>
                 </li>
 
                 <li class="nav-item">
@@ -126,10 +126,8 @@
         <div class="container">
             <div class="row">
 
-                <div class="section-title-wrap d-flex justify-content-center align-items-center mb-4">
+                <div class="offset-4 col-lg-8 section-title-wrap d-flex justify-content-center align-items-center mb-4">
                     <h2 class="text-white me-4 mb-0">Wie ben ik?</h2>
-
-                    <img src="images/leon.jpg" class="avatar-image img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-6 col-12 mt-5 mt-lg-0">
@@ -184,120 +182,26 @@
         </div>
     </section>
 
-    {{--    Commented--}}
-    <div>
-        {{--    <section class="clients section-padding">--}}
-        {{--        <div class="container">--}}
-        {{--            <div class="row align-items-center">--}}
-
-        {{--                <div class="col-lg-12 col-12">--}}
-        {{--                    <h3 class="text-center mb-5">Companies I've had worked</h3>--}}
-        {{--                </div>--}}
-
-        {{--                <div class="col-lg-2 col-4 ms-auto clients-item-height">--}}
-        {{--                    <img src="images/clients/cachet.svg" class="clients-image img-fluid" alt="">--}}
-        {{--                </div>--}}
-
-        {{--                <div class="col-lg-2 col-4 clients-item-height">--}}
-        {{--                    <img src="images/clients/guitar-center.svg" class="clients-image img-fluid" alt="">--}}
-        {{--                </div>--}}
-
-        {{--                <div class="col-lg-2 col-4 clients-item-height">--}}
-        {{--                    <img src="images/clients/tokico.svg" class="clients-image img-fluid" alt="">--}}
-        {{--                </div>--}}
-
-        {{--                <div class="col-lg-2 col-4 clients-item-height">--}}
-        {{--                    <img src="images/clients/shopify.svg" class="clients-image img-fluid" alt="">--}}
-        {{--                </div>--}}
-
-        {{--                <div class="col-lg-2 col-4 me-auto clients-item-height">--}}
-        {{--                    <img src="images/clients/profil-rejser.svg" class="clients-image img-fluid" alt="">--}}
-        {{--                </div>--}}
-
-        {{--            </div>--}}
-        {{--        </div>--}}
-        {{--    </section>--}}
-
-    </div>
-
     <section class="services section-padding" id="section_3">
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-10 col-12 mx-auto">
-                    <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-{{--                                                <img src="images/portfolio.jpeg"--}}
-{{--                                                     class="avatar-image img-fluid" alt="">--}}
-
-                                                <h2 class="text-white ms-4 mb-0">Portfolio</h2>
+                <div class="col-lg-12 col-12 mx-auto">
+                    <div class="col-lg-8 section-title-wrap d-flex justify-content-center align-items-center mb-5">
+                          <h2 class="text-white ms-4 mb-0">Projecten</h2>
                     </div>
 
-                    <div class="row pt-lg-5">
-                        <div class="col-lg-6 col-12">
+                    <div class="row">
+                        <div class="col-lg-12.  col-12">
                             <div class="services-thumb">
                                 <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                    <h3 class="mb-0">Sociale hygiene</h3>
+                                    <h3 class="mb-0">Dirk van den Broek</h3>
                                 </div>
 
                                 <p>You may want to explore Too CSS for great collection of free HTML CSS
                                     templates.</p>
 
-                                <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                    <i class="services-icon fa-solid fa-certificate"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <div class="services-thumb services-thumb-up">
-                                <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                    <h3 class="mb-0">Dirk van den Broek</h3>
-                                </div>
-
-                                <p>You can explore more CSS templates on TemplateMo website by browsing through
-                                    different tags.</p>
-
-                                <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                    <i class="services-icon fa-solid fa-briefcase"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <div class="services-thumb">
-                                <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                    <h3 class="mb-0">Developer</h3>
-                                </div>
-
-                                <p>If you need a customized ecommerce website for your business, feel free to
-                                    discuss with me.</p>
-
-                                <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                    <i class="services-icon fa-solid fa-briefcase"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <div class="services-thumb services-thumb-up">
-                                <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                    <h3 class="mb-0">BHV</h3>
-                                </div>
-
-                                <p>To list your website first on any search engine, we will work together. First
-                                    Portfolio is one-page CSS Template for free download.</p>
-
-                                <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                    <i class="services-icon fa-solid fa-certificate"></i>
-                                </div>
+                                <a href="#" class="custom-btn custom-border-btn btn mt-3">Bekijk portfolio</a>
                             </div>
                         </div>
                     </div>
@@ -312,9 +216,6 @@
 
                 <div class="col-lg-8 col-md-8 col-12 ms-auto">
                     <div class="section-title-wrap d-flex justify-content-center align-items-center mb-4">
-                        <img src="images/white-desk-work-study-aesthetics.jpg" class="avatar-image img-fluid"
-                             alt="">
-
                         <h2 class="text-white ms-4 mb-0">Werkervaring</h2>
                     </div>
                 </div>
@@ -324,45 +225,65 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="projects-thumb">
                         <div class="projects-info">
-                            <small class="projects-tag">Branding</small>
+                            <small class="projects-tag">Werk | Developer</small>
 
-                            <h3 class="projects-title">Zoik agency</h3>
+                            <h3 class="projects-title">Ivesa</h3>
                         </div>
 
-                        <a href="images/projects/nikhil-KO4io-eCAXA-unsplash.jpg" class="popup-image">
-                            <img src="images/projects/nikhil-KO4io-eCAXA-unsplash.jpg"
-                                 class="projects-image img-fluid" alt="">
-                        </a>
+                        <img src="images/ivesa.jpg"
+                             class="projects-image img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="projects-thumb">
                         <div class="projects-info">
-                            <small class="projects-tag">Photography</small>
+                            <small class="projects-tag">Werk | Teamleider</small>
 
-                            <h3 class="projects-title">The Watch</h3>
+                            <h3 class="projects-title">Dirk van den Broek</h3>
                         </div>
 
-                        <a href="images/projects/the-5th-IQYR7N67dhM-unsplash.jpg" class="popup-image">
-                            <img src="images/projects/the-5th-IQYR7N67dhM-unsplash.jpg"
-                                 class="projects-image img-fluid" alt="">
-                        </a>
+
+                        <img src="images/dirk.png"
+                             class="projects-image img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="projects-thumb">
                         <div class="projects-info">
-                            <small class="projects-tag">Website</small>
+                            <small class="projects-tag">Vrijwillegers werk | Horeca</small>
 
-                            <h3 class="projects-title">Polo</h3>
+                            <h3 class="projects-title">Stoppelhaene</h3>
                         </div>
 
-                        <a href="images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg" class="popup-image">
-                            <img src="images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg"
-                                 class="projects-image img-fluid" alt="">
-                        </a>
+                        <img src="images/stoppelhaene.jpg"
+                             class="projects-image img-fluid" alt="">
+
+                    </div>
+                </div>
+
+                <div class="offset-lg-2 col-lg-4 col-md-6 col-12">
+                    <div class="projects-thumb">
+                        <div class="projects-info">
+                            <small class="projects-tag">Vrijwillegers werk | Horeca</small>
+
+                            <h3 class="projects-title">Ribs & Blues</h3>
+                        </div>
+                        <img src="images/ribs-blues.jpg"
+                             class="projects-image img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="projects-thumb">
+                        <div class="projects-info">
+                            <small class="projects-tag">Vrijwillegers werk | Horeca</small>
+
+                            <h3 class="projects-title">Bevrijdings festival</h3>
+                        </div>
+                        <img src="images/BFO.png"
+                             class="projects-image img-fluid" alt="">
                     </div>
                 </div>
 
@@ -374,164 +295,147 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-6 col-md-8 col-12">
+                <div class="col-lg-8 col-md-8 col-12">
                     <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-                        <img src="images/aerial-view-man-using-computer-laptop-wooden-table.jpg"
-                             class="avatar-image img-fluid" alt="">
-
                         <h2 class="text-white ms-4 mb-0">CV</h2>
                     </div>
                 </div>
 
                 <div class="clearfix"></div>
 
-                <div class="col-lg-3 col-md-6 col-12 pe-lg-0">
+                <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
                     <div class="contact-info contact-info-border-start d-flex flex-column">
-                        <strong class="site-footer-title d-block mb-3">Services</strong>
+                        <strong class="site-footer-title d-block mb-3">Contact</strong>
 
-                        <ul class="footer-menu">
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Websites</a></li>
+                        <ul class="contact-icon">
+                            <li class="contact-icon-item">
+                                <a class="contact-icon-link fa-solid fa-phone"></a>
+                                +31 06 15925213
+                            </li>
 
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Branding</a></li>
+                            <li class="contact-icon-item">
+                                <a class="contact-icon-link fa-solid fa-envelope"></a>
+                                Leontermaten@gmail.com
+                            </li>
 
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Ecommerce</a></li>
-
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">SEO</a></li>
+                            <li class="contact-icon-item">
+                                <a class="contact-icon-link fa-solid fa-location-dot"></a>
+                                Brugstraat 20, 8102ES Raalte
+                            </li>
+                            <li class="contact-icon-item">
+                                <a class="contact-icon-link fa-solid fa-calendar"></a>
+                                24 Juli 2002
+                            </li>
+                            <li class="contact-icon-item">
+                                <a class="contact-icon-link fa-solid fa-flag"></a>
+                                Nederlandse
+                            </li>
                         </ul>
 
-                        <strong class="site-footer-title d-block mt-4 mb-3">Stay connected</strong>
+                        <strong class="site-footer-title d-block mt-4 mb-3">Certificaten</strong>
+                        <ul>
+                            <li>
+                                <p class="mb-0">Sociale Hygiene <small class="projects-tag">2022</small></p>
 
-                        <ul class="social-icon">
-                            <li class="social-icon-item"><a href="https://twitter.com/minthu"
-                                                            class="social-icon-link bi-twitter"></a></li>
-
-                            <li class="social-icon-item"><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                            <li class="social-icon-item"><a href="#" class="social-icon-link bi-pinterest"></a></li>
-
-                            <li class="social-icon-item"><a href="https://www.youtube.com/templatemo"
-                                                            class="social-icon-link bi-youtube"></a></li>
+                            </li>
+                            <li>
+                                <p class="mb-0">Bedrijfshulp verlening <small class="projects-tag">2022</small></p>
+                            </li>
                         </ul>
 
-                        <strong class="site-footer-title d-block mt-4 mb-3">Start a project</strong>
+                        <strong class="site-footer-title d-block mt-4 mb-3">Eigenshappen</strong>
+                        <ul>
+                            <li>
+                                <p class="mb-0">Flexibel</p>
+                            </li>
+                            <li>
+                                <p class="mb-0">Stressbestendig</p>
+                            </li>
+                            <li>
+                                <p class="mb-0">Klantgericht</p>
+                            </li>
+                        </ul>
 
-                        <p class="mb-0">I’m available for freelance projects</p>
+
+                        <strong class="site-footer-title d-block mt-4 mb-3">Talen</strong>
+                        <ul>
+                            <li>
+                                <p class="mb-0">Nederlands <small class="projects-tag">Moedertaal</small></p>
+                            </li>
+                            <li>
+                                <p class="mb-0">Engels <small class="projects-tag">Goed</small></p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-12 ps-lg-0">
+                <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
                     <div class="contact-info d-flex flex-column">
-                        <strong class="site-footer-title d-block mb-3">About</strong>
+                        <h3 class="projects-title border-bottom  pb-2">Opleidingen</h3>
+                        <ul style="list-style: none">
+                            <li>
+                                <p class="mb-0">Applicatie- en Mediaontwikkelaar | MBO 4 <small class="projects-tag">2018-2021</small></p>
+                            </li>
+                            <li>
+                                <p class="mb-0">Retail Manager | MBO 4  <small class="projects-tag">2021-heden</small></p>
+                            </li>
+                        </ul>
 
-                        <p class="mb-2">
-                            Joshua is a professional web developer. Feel free to get in touch with me.
-                        </p>
+                        <h3 class="projects-title border-bottom pb-2">Werkervaring</h3>
 
-                        <strong class="site-footer-title d-block mt-4 mb-3">Email</strong>
+                        <h6 class="mb-2">
+                            Dirk van den Broek
+                        </h6>
 
-                        <p>
-                            <a href="mailto:hello@josh.design">
-                                hello@josh.design
-                            </a>
-                        </p>
+                        <ul style="list-style: none">
+                            <li>
+                                <p class="mb-0">Vulploegmedewerker <small class="projects-tag">2017-2019</small></p>
+                            </li>
+                            <li>
+                                <p class="mb-0">Verkoopmedewerker <small class="projects-tag">2019-2020</small></p>
+                            </li>
+                            <li>
+                                <p class="mb-0">Teamleider <small class="projects-tag">2020 - heden</small></p>
+                            </li>
+                        </ul>
 
-                        <strong class="site-footer-title d-block mt-4 mb-3">Call</strong>
+                        <h6 class="mb-2">
+                            Ivesa
+                        </h6>
 
-                        <p class="mb-0">
-                            <a href="tel: 120-240-9600">
-                                120-240-9600
-                            </a>
-                        </p>
+                        <ul style="list-style: none">
+                            <li>
+                                <p class="mb-0">Developer <small class="projects-tag">Feb 2020 - Sep 2021</small></p>
+                            </li>
+                        </ul>
+
+
+                        <h3 class="projects-title border-bottom pb-2">Stages</h3>
+
+                        <h6 class="mb-2">
+                            Ivesa
+                        </h6>
+
+                        <ul style="list-style: none">
+                            <li>
+                                <p class="mb-0">Developer <small class="projects-tag">Aug 2019 - Feb 2020 & Feb 2021 - Juli 2021 </small></p>
+                            </li>
+                        </ul>
+
+                        <h6 class="mb-2">
+                            Dirk van den broek
+                        </h6>
+
+                        <ul style="list-style: none">
+                            <li>
+                                <p class="mb-0">BBL stagair <small class="projects-tag">Aug 2021 - heden </small></p>
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
-
-                <div class="col-lg-6 col-12 mt-5 mt-lg-0">
-                    <form action="#" method="get" class="custom-form contact-form" role="form">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-12">
-                                <div class="form-floating">
-                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name"
-                                           required="">
-
-                                    <label for="floatingInput">Name</label>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-md-6 col-12">
-                                <div class="form-floating">
-                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"
-                                           class="form-control" placeholder="Email address" required="">
-
-                                    <label for="floatingInput">Email address</label>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-6">
-                                <div class="form-check form-check-inline">
-                                    <input name="website" type="checkbox" class="form-check-input"
-                                           id="inlineCheckbox1" value="1">
-
-                                    <label class="form-check-label" for="inlineCheckbox1">
-                                        <i class="bi-globe form-check-icon"></i>
-                                        <span class="form-check-label-text">Websites</span>
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-6">
-                                <div class="form-check form-check-inline">
-                                    <input name="branding" type="checkbox" class="form-check-input"
-                                           id="inlineCheckbox2" value="1">
-
-                                    <label class="form-check-label" for="inlineCheckbox2">
-                                        <i class="bi-lightbulb form-check-icon"></i>
-                                        <span class="form-check-label-text">Branding</span>
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-6">
-                                <div class="form-check form-check-inline">
-                                    <input name="ecommerce" type="checkbox" class="form-check-input"
-                                           id="inlineCheckbox3" value="1">
-
-                                    <label class="form-check-label" for="inlineCheckbox3">
-                                        <i class="bi-phone form-check-icon"></i>
-                                        <span class="form-check-label-text">Ecommerce</span>
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-6">
-                                <div class="form-check form-check-inline me-0">
-                                    <input name="seo" type="checkbox" class="form-check-input" id="inlineCheckbox4"
-                                           value="1">
-
-                                    <label class="form-check-label" for="inlineCheckbox4">
-                                        <i class="bi-google form-check-icon"></i>
-                                        <span class="form-check-label-text">SEO</span>
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-12 col-12">
-                                <div class="form-floating">
-                                        <textarea class="form-control" id="message" name="message"
-                                                  placeholder="Tell me about the project"></textarea>
-
-                                    <label for="floatingTextarea">Tell me about the project</label>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-12 ms-auto">
-                                <button type="submit" class="form-control">Send</button>
-                            </div>
-
-                        </div>
-                    </form>
-                </div>
-
             </div>
+
         </div>
     </section>
 </main>

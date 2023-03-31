@@ -978,6 +978,37 @@ strong {
   color: var(--white-color);
 }
 
+.contact-icon {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-icon-item {
+    list-style: none;
+    display: block;
+    vertical-align: top;
+}
+
+.contact-icon-link {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-large);
+    font-size: var(--copyright-font-size);
+    color: var(--dark-color);
+    display: inline-block;
+    margin: 2px 2px 5px 2px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.contact-icon-link:hover {
+    background: var(--secondary-color);
+    border-color: transparent;
+    color: var(--white-color);
+}
+
 
 /*---------------------------------------
   RESPONSIVE STYLES
