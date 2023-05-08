@@ -51,9 +51,9 @@
                     <a class="nav-link click-scroll" href="#section_2">Wie ben ik</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_3">Projecten</a>
-                </li>
+                {{--                <li class="nav-item">--}}
+                {{--                    <a class="nav-link click-scroll" href="#section_3">Projecten</a>--}}
+                {{--                </li>--}}
 
                 <li class="nav-item">
                     <a class="nav-link click-scroll" href="#section_4">Werkervaring</a>
@@ -70,12 +70,8 @@
                     <i class="fa-brands fa-linkedin fa-xl mt-3"></i>
                 </a>
                 <a class="custom-btn btn ms-3" target="_blank"
-                   href="https://www.linkedin.com/in/leon-ter-maten-591070193/">
-                    <i class="fa-solid fa-envelope fa-xl mt-3"></i>
-                </a>
-                <a class="custom-btn btn ms-3" target="_blank"
-                   href="tel:+31615925213">
-                    <i class="fa-solid fa-phone fa-xl mt-3"></i>
+                   href="https://www.instagram.com/leon_termaten/">
+                    <i class="fa-brands fa-instagram fa-xl mt-3"></i>
                 </a>
             </div>
         </div>
@@ -130,85 +126,61 @@
                     <h2 class="text-white me-4 mb-0">Wie ben ik?</h2>
                 </div>
 
-                <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                <div class="row">
                     <div class="about-thumb">
 
 
-                        <h3 class="pt-2 mb-3">a little bit about Joshua</h3>
+                        <h3 class="pt-2 mb-3">A little bit about me</h3>
 
                         <p>
-
+                            @php($age = \Carbon\Carbon::createFromFormat('Y-m-d', '2002-07-24')->age)
+                            Mijn naam is Leon ter Maten. Ik ben geboren op 24 Juli 2002 in Zwolle en ben dus {{$age}}
+                            jaar. Ik woon samen met mijn ouders, zusje en 2 katten in het centrum van Raalte.
+                            Ik ben opgeleid als Developer op Landstede Raalte. Ondanks dat dit beroep erg uitdagend en
+                            leuk is, kwam ik er tijdens mijn stage periode achter dat ik het contact met de klant erg
+                            miste. Ik werkte destijds al als teamleider bij Dirk van den Broek en heb hier in overleg
+                            met mijn leidinggevende ervoor gekozen om bij Dirk van den Broek de BBL-opleiding tot
+                            retail manager te volgen.
+                            <br/>
+                            Ik ben flexibel en leergierig ik kan goed samenwerken en ben stressbestendig.
+                            Het contact met klanten vind ik belangrijk en hier haal ik veel enthousiasme uit.
                         </p>
 
-                        <p>You are allowed to use this template for your websites. You are not allowed to
-                            redistribute the template ZIP file on any other website. Please <a
-                                href="https://templatemo.com/contact" target="_blank">contact us</a> for more info.
-                        </p>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-12">
-                    <div class="profile-thumb">
-                        <div class="profile-title">
-                            <h4 class="mb-0">Informatie</h4>
-                        </div>
-
-                        <div class="profile-body">
-                            <p>
-                                <span class="profile-small-title">Name</span>
-                                <span>Leon ter Maten</span>
-                            </p>
-
-                            <p>
-                                <span class="profile-small-title">Leeftijd</span>
-                                <span>20 jaar</span>
-                            </p>
-
-                            <p>
-                                <span class="profile-small-title">Telefoon</span>
-                                <span><a href="tel: +31615925213">06-15925213</a></span>
-                            </p>
-
-                            <p>
-                                <span class="profile-small-title">Email</span>
-                                <span><a
-                                        href="mailto:Leontermaten@gmail.com">Leontermaten@gmail.com</a></span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
 
             </div>
         </div>
     </section>
 
-    <section class="services section-padding" id="section_3">
-        <div class="container">
-            <div class="row">
+    {{--    <section class="services section-padding" id="section_3">--}}
+    {{--        <div class="container">--}}
+    {{--            <div class="row">--}}
 
-                <div class="col-lg-12 col-12 mx-auto">
-                    <div class="col-lg-8 section-title-wrap d-flex justify-content-center align-items-center mb-5">
-                          <h2 class="text-white ms-4 mb-0">Projecten</h2>
-                    </div>
+    {{--                <div class="col-lg-12 col-12 mx-auto">--}}
+    {{--                    <div class="col-lg-8 section-title-wrap d-flex justify-content-center align-items-center mb-5">--}}
+    {{--                          <h2 class="text-white ms-4 mb-0">Projecten</h2>--}}
+    {{--                    </div>--}}
 
-                    <div class="row">
-                        <div class="col-lg-12.  col-12">
-                            <div class="services-thumb">
-                                <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                    <h3 class="mb-0">Dirk van den Broek</h3>
-                                </div>
+    {{--                    <div class="row">--}}
+    {{--                        <div class="col-lg-12.  col-12">--}}
+    {{--                            <div class="services-thumb">--}}
+    {{--                                <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">--}}
+    {{--                                    <h3 class="mb-0">Dirk van den Broek</h3>--}}
+    {{--                                </div>--}}
 
-                                <p>You may want to explore Too CSS for great collection of free HTML CSS
-                                    templates.</p>
+    {{--                                <p>You may want to explore Too CSS for great collection of free HTML CSS--}}
+    {{--                                    templates.</p>--}}
 
-                                <a href="#" class="custom-btn custom-border-btn btn mt-3">Bekijk portfolio</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    {{--                                <a href="#" class="custom-btn custom-border-btn btn mt-3">Bekijk portfolio</a>--}}
+    {{--                            </div>--}}
+    {{--                        </div>--}}
+    {{--                    </div>--}}
+    {{--                </div>--}}
+    {{--            </div>--}}
+    {{--        </div>--}}
+    {{--    </section>--}}
 
     <section class="projects section-padding" id="section_4">
         <div class="container">
@@ -225,7 +197,7 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="projects-thumb">
                         <div class="projects-info">
-                            <small class="projects-tag">Werk | Developer</small>
+                            <small class="projects-tag">Werk & Stagair | Developer</small>
 
                             <h3 class="projects-title">Ivesa</h3>
                         </div>
@@ -252,7 +224,7 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="projects-thumb">
                         <div class="projects-info">
-                            <small class="projects-tag">Vrijwillegers werk | Horeca</small>
+                            <small class="projects-tag">Vrijwillegers werk | Horeca & logistiek</small>
 
                             <h3 class="projects-title">Stoppelhaene</h3>
                         </div>
@@ -266,7 +238,7 @@
                 <div class="offset-lg-2 col-lg-4 col-md-6 col-12">
                     <div class="projects-thumb">
                         <div class="projects-info">
-                            <small class="projects-tag">Vrijwillegers werk | Horeca</small>
+                            <small class="projects-tag">Vrijwillegers werk | Horeca & logistiek</small>
 
                             <h3 class="projects-title">Ribs & Blues</h3>
                         </div>
@@ -278,7 +250,7 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="projects-thumb">
                         <div class="projects-info">
-                            <small class="projects-tag">Vrijwillegers werk | Horeca</small>
+                            <small class="projects-tag">Vrijwillegers werk | Horeca & logistiek</small>
 
                             <h3 class="projects-title">Bevrijdings festival</h3>
                         </div>
@@ -374,10 +346,12 @@
                         <h3 class="projects-title border-bottom  pb-2">Opleidingen</h3>
                         <ul style="list-style: none">
                             <li>
-                                <p class="mb-0">Applicatie- en Mediaontwikkelaar | MBO 4 <small class="projects-tag">2018-2021</small></p>
+                                <p class="mb-0">Applicatie- en Mediaontwikkelaar | MBO 4 <small class="projects-tag">2018
+                                        - 2021</small></p>
                             </li>
                             <li>
-                                <p class="mb-0">Retail Manager | MBO 4  <small class="projects-tag">2021-heden</small></p>
+                                <p class="mb-0">Retail Manager | MBO 4 <small class="projects-tag">2021 - heden</small>
+                                </p>
                             </li>
                         </ul>
 
@@ -389,10 +363,10 @@
 
                         <ul style="list-style: none">
                             <li>
-                                <p class="mb-0">Vulploegmedewerker <small class="projects-tag">2017-2019</small></p>
+                                <p class="mb-0">Vulploegmedewerker <small class="projects-tag">2017 - 2019</small></p>
                             </li>
                             <li>
-                                <p class="mb-0">Verkoopmedewerker <small class="projects-tag">2019-2020</small></p>
+                                <p class="mb-0">Verkoopmedewerker <small class="projects-tag">2019 - 2020</small></p>
                             </li>
                             <li>
                                 <p class="mb-0">Teamleider <small class="projects-tag">2020 - heden</small></p>
@@ -418,7 +392,8 @@
 
                         <ul style="list-style: none">
                             <li>
-                                <p class="mb-0">Developer <small class="projects-tag">Aug 2019 - Feb 2020 & Feb 2021 - Juli 2021 </small></p>
+                                <p class="mb-0">Developer <small class="projects-tag">Aug 2019 - Feb 2020 & Feb 2021 -
+                                        Juli 2021 </small></p>
                             </li>
                         </ul>
 
@@ -447,7 +422,8 @@
             <div class="col-lg-12 col-12">
                 <div class="copyright-text-wrap">
                     <p class="mb-0">
-                        <span class="copyright-text">Copyright © 2036 <a href="#">First Portfolio</a> Company. All rights reserved.</span>
+                        @php($year =  \Carbon\Carbon::now()->year)
+                        <span class="copyright-text">Copyright ©  Leon ter Maten {{$year}} </span>
                         Design:
                         <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
                     </p>
