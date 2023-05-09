@@ -141,7 +141,7 @@
                             miste. Ik werkte destijds al als teamleider bij Dirk van den Broek en heb hier in overleg
                             met mijn leidinggevende ervoor gekozen om bij Dirk van den Broek de BBL-opleiding tot
                             retail manager te volgen.
-                            <br/>
+                            <br/> <br/>
                             Ik ben flexibel en leergierig ik kan goed samenwerken en ben stressbestendig.
                             Het contact met klanten vind ik belangrijk en hier haal ik veel enthousiasme uit.
                         </p>
@@ -197,7 +197,7 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="projects-thumb">
                         <div class="projects-info">
-                            <small class="projects-tag">Werk & Stagair | Developer</small>
+                            <small class="projects-tag">Werk & Stagair</small>
 
                             <h3 class="projects-title">Ivesa</h3>
                         </div>
@@ -210,7 +210,7 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="projects-thumb">
                         <div class="projects-info">
-                            <small class="projects-tag">Werk | Teamleider</small>
+                            <small class="projects-tag">Werk</small>
 
                             <h3 class="projects-title">Dirk van den Broek</h3>
                         </div>
@@ -224,7 +224,7 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="projects-thumb">
                         <div class="projects-info">
-                            <small class="projects-tag">Vrijwillegers werk | Horeca & logistiek</small>
+                            <small class="projects-tag">Vrijwillegers werk</small>
 
                             <h3 class="projects-title">Stoppelhaene</h3>
                         </div>
@@ -238,7 +238,7 @@
                 <div class="offset-lg-2 col-lg-4 col-md-6 col-12">
                     <div class="projects-thumb">
                         <div class="projects-info">
-                            <small class="projects-tag">Vrijwillegers werk | Horeca & logistiek</small>
+                            <small class="projects-tag">Vrijwillegers werk</small>
 
                             <h3 class="projects-title">Ribs & Blues</h3>
                         </div>
@@ -250,7 +250,7 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="projects-thumb">
                         <div class="projects-info">
-                            <small class="projects-tag">Vrijwillegers werk | Horeca & logistiek</small>
+                            <small class="projects-tag">Vrijwillegers werk</small>
 
                             <h3 class="projects-title">Bevrijdings festival</h3>
                         </div>
@@ -275,142 +275,304 @@
 
                 <div class="clearfix"></div>
 
-                <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
-                    <div class="contact-info contact-info-border-start d-flex flex-column">
-                        <strong class="site-footer-title d-block mb-3">Contact</strong>
+                <div class="row col-lg-12">
+                    <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                        <div class="contact-info contact-info-border-start d-flex flex-column">
+                            <strong class="site-footer-title d-block mb-3">Contact</strong>
 
-                        <ul class="contact-icon">
-                            <li class="contact-icon-item">
-                                <a class="contact-icon-link fa-solid fa-phone"></a>
-                                +31 06 15925213
-                            </li>
+                            <ul class="contact-icon">
+                                <li class="contact-icon-item">
+                                    <a class="contact-icon-link fa-solid fa-phone"></a>
+                                    +31 06 15925213
+                                </li>
 
-                            <li class="contact-icon-item">
-                                <a class="contact-icon-link fa-solid fa-envelope"></a>
-                                Leontermaten@gmail.com
-                            </li>
+                                <li class="contact-icon-item">
+                                    <a class="contact-icon-link fa-solid fa-envelope"></a>
+                                    Leontermaten@gmail.com
+                                </li>
 
-                            <li class="contact-icon-item">
-                                <a class="contact-icon-link fa-solid fa-location-dot"></a>
-                                Brugstraat 20, 8102ES Raalte
-                            </li>
-                            <li class="contact-icon-item">
-                                <a class="contact-icon-link fa-solid fa-calendar"></a>
-                                24 Juli 2002
-                            </li>
-                            <li class="contact-icon-item">
-                                <a class="contact-icon-link fa-solid fa-flag"></a>
-                                Nederlandse
-                            </li>
-                        </ul>
+                                <li class="contact-icon-item">
+                                    <a class="contact-icon-link fa-solid fa-location-dot"></a>
+                                    Brugstraat 20, 8102ES Raalte
+                                </li>
+                                <li class="contact-icon-item">
+                                    <a class="contact-icon-link fa-solid fa-calendar"></a>
+                                    24 Juli 2002
+                                </li>
+                                <li class="contact-icon-item">
+                                    <a class="contact-icon-link fa-solid fa-flag"></a>
+                                    Nederlandse
+                                </li>
+                            </ul>
 
-                        <strong class="site-footer-title d-block mt-4 mb-3">Certificaten</strong>
-                        <ul>
-                            <li>
-                                <p class="mb-0">Sociale Hygiene <small class="projects-tag">2022</small></p>
+                            <strong class="site-footer-title d-block mt-4 mb-3">Certificaten</strong>
+                            <ul>
+                                <li>
+                                    <p class="mb-0">Sociale Hygiene <small class="contact-tag">2022</small></p>
 
-                            </li>
-                            <li>
-                                <p class="mb-0">Bedrijfshulp verlening <small class="projects-tag">2022</small></p>
-                            </li>
-                        </ul>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Bedrijfshulpverlening <small class="contact-tag">2022</small></p>
+                                </li>
+                            </ul>
 
-                        <strong class="site-footer-title d-block mt-4 mb-3">Eigenshappen</strong>
-                        <ul>
-                            <li>
-                                <p class="mb-0">Flexibel</p>
-                            </li>
-                            <li>
-                                <p class="mb-0">Stressbestendig</p>
-                            </li>
-                            <li>
-                                <p class="mb-0">Klantgericht</p>
-                            </li>
-                        </ul>
+                            <strong class="site-footer-title d-block mt-4 mb-3">Competenties</strong>
+                            <ul>
+                                <li>
+                                    <p class="mb-0">Commercieel</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Flexibel</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Georganiseerd</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Klantgericht</p>
+                                </li>
+                                <li>
+                                    <p class="mb-0">Stressbestendig</p>
+                                </li>
+                            </ul>
 
 
-                        <strong class="site-footer-title d-block mt-4 mb-3">Talen</strong>
-                        <ul>
-                            <li>
-                                <p class="mb-0">Nederlands <small class="projects-tag">Moedertaal</small></p>
-                            </li>
-                            <li>
-                                <p class="mb-0">Engels <small class="projects-tag">Goed</small></p>
-                            </li>
-                        </ul>
+                            <strong class="site-footer-title d-block mt-4 mb-3">Talen</strong>
+                            <ul>
+                                <li>
+                                    <div class="skill-bar">
+                                        <span>Nederlands</span>
+                                        <div class="skill-level">
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-bar">
+                                        <span>Engels</span>
+                                        <div class="skill-level">
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="dot"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-bar">
+                                        <span>Duits</span>
+                                        <div class="skill-level">
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <strong class="site-footer-title d-block mt-4 mb-3">Vaardigheden</strong>
+                            <ul>
+                                <li>
+                                    <div class="skill-bar">
+                                        <span>MS Office</span>
+                                        <div class="skill-level">
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="dot"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-bar">
+                                        <span>Excel</span>
+                                        <div class="skill-level">
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-bar">
+                                        <span>HTML & CSS</span>
+                                        <div class="skill-level">
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-bar">
+                                        <span>PHP </span>
+                                        <div class="skill-level">
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="dot"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-bar">
+                                        <span>Laravel </span>
+                                        <div class="skill-level">
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="fill dot"></span>
+                                            <span class="dot"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
-                    <div class="contact-info d-flex flex-column">
-                        <h3 class="projects-title border-bottom  pb-2">Opleidingen</h3>
-                        <ul style="list-style: none">
-                            <li>
-                                <p class="mb-0">Applicatie- en Mediaontwikkelaar | MBO 4 <small class="projects-tag">2018
-                                        - 2021</small></p>
-                            </li>
-                            <li>
-                                <p class="mb-0">Retail Manager | MBO 4 <small class="projects-tag">2021 - heden</small>
-                                </p>
-                            </li>
-                        </ul>
+                    <div class="col-lg-8 col-md-6 col-12 ps-lg-0">
+                        <div class="contact-info d-flex flex-column">
+                            <h3 class="projects-title border-bottom  pb-2">Opleidingen</h3>
+                            <ul style="list-style: none">
+                                <li>
+                                    <span class="mb-0">Applicatie- en Mediaontwikkelaar | MBO 4</span>
+                                    <span class="work-tag">2018 - 2021</span>
+                                </li>
+                                <li>
+                                    <span class="mb-0">Retail Manager | MBO 4</span>
+                                    <span class="work-tag">2021 - heden</span>
+                                </li>
+                            </ul>
 
-                        <h3 class="projects-title border-bottom pb-2">Werkervaring</h3>
+                            <h3 class="projects-title border-bottom pb-2">Werkervaring</h3>
 
-                        <h6 class="mb-2">
-                            Dirk van den Broek
-                        </h6>
+                            <div class="work-icon">
+                                <div class="work-icon-item">
+                                    <h6 class="mb-2">
+                                        Dirk van den Broek
+                                        <i class="work-icon-link fa-solid fa-info"></i>
+                                    </h6>
+                                </div>
+                            </div>
 
-                        <ul style="list-style: none">
-                            <li>
-                                <p class="mb-0">Vulploegmedewerker <small class="projects-tag">2017 - 2019</small></p>
-                            </li>
-                            <li>
-                                <p class="mb-0">Verkoopmedewerker <small class="projects-tag">2019 - 2020</small></p>
-                            </li>
-                            <li>
-                                <p class="mb-0">Teamleider <small class="projects-tag">2020 - heden</small></p>
-                            </li>
-                        </ul>
+                            <ul style="list-style: none">
+                                <li>
+                                    <span class="mb-0">Vulploegmedewerker</span>
+                                    <span class="work-tag">2017 - 2019</span>
 
-                        <h6 class="mb-2">
-                            Ivesa
-                        </h6>
+                                </li>
+                                <li>
+                                    <span class="mb-0">Verkoopmedewerker</span>
+                                    <span class="work-tag">2019 - 2020</span>
+                                </li>
+                                <li>
+                                    <span class="mb-0">Teamleider</span>
+                                    <span class="work-tag">2020 - heden</span>
+                                </li>
+                            </ul>
 
-                        <ul style="list-style: none">
-                            <li>
-                                <p class="mb-0">Developer <small class="projects-tag">Feb 2020 - Sep 2021</small></p>
-                            </li>
-                        </ul>
+                            <div class="work-icon">
+                                <div class="work-icon-item">
+                                    <h6 class="mb-2">
+                                        Ivesa
+                                        <i class="work-icon-link fa-solid fa-info"></i>
+                                    </h6>
+                                </div>
+                            </div>
+                            <ul style="list-style: none">
+                                <li>
+                                    <span>Developer </span>
+                                    <span class="work-tag">Feb 2020 - Sep 2021</span>
+                                </li>
+                            </ul>
 
+                            <div class="work-icon">
+                                <div class="work-icon-item">
+                                    <h6 class="mb-2">
+                                        Stoppelhaene
+                                        <i class="work-icon-link fa-solid fa-info"></i>
+                                    </h6>
+                                </div>
+                            </div>
 
-                        <h3 class="projects-title border-bottom pb-2">Stages</h3>
+                            <ul style="list-style: none">
+                                <li>
+                                    <span class="mb-0">Horeca | Runner | Technische dienst </span>
+                                    <span class="work-tag">Diverse edities</span>
+                                </li>
+                            </ul>
 
-                        <h6 class="mb-2">
-                            Ivesa
-                        </h6>
+                            <div class="work-icon">
+                                <div class="work-icon-item">
+                                    <h6 class="mb-2">
+                                        Ribs & Blues
+                                        <i class="work-icon-link fa-solid fa-info"></i>
+                                    </h6>
+                                </div>
+                            </div>
 
-                        <ul style="list-style: none">
-                            <li>
-                                <p class="mb-0">Developer <small class="projects-tag">Aug 2019 - Feb 2020 & Feb 2021 -
-                                        Juli 2021 </small></p>
-                            </li>
-                        </ul>
+                            <ul style="list-style: none">
+                                <li>
+                                    <span class="mb-0">Horeca | Runner | Technische dienst | Finance  </span>
+                                    <span class="work-tag">Diverse edities</span>
+                                </li>
+                            </ul>
 
-                        <h6 class="mb-2">
-                            Dirk van den broek
-                        </h6>
+                            <div class="work-icon">
+                                <div class="work-icon-item">
+                                    <h6 class="mb-2">
+                                        Bevrijdings Festival Overijssel
+                                        <i class="work-icon-link fa-solid fa-info"></i>
+                                    </h6>
+                                </div>
+                            </div>
 
-                        <ul style="list-style: none">
-                            <li>
-                                <p class="mb-0">BBL stagair <small class="projects-tag">Aug 2021 - heden </small></p>
-                            </li>
-                        </ul>
+                            <ul style="list-style: none">
+                                <li>
+                                    <span class="mb-0">Horeca | Runner </span>
+                                    <span class="work-tag">Diverse edities</span>
+                                </li>
+                            </ul>
 
+                            <h3 class="projects-title border-bottom pb-2">Stages</h3>
+
+                            <h6 class="mb-2">
+                                Ivesa
+                            </h6>
+
+                            <ul style="list-style: none">
+                                <li>
+                                    <span class="mb-0">Developer </span>
+                                    <span class="work-tag">Aug 2019 - Feb 2020 & Feb 2021 - Juli2021 </span>
+                                </li>
+                            </ul>
+
+                            <h6 class="mb-2">
+                                Dirk van den broek
+                            </h6>
+
+                            <ul style="list-style: none">
+                                <li>
+                                    <span class="mb-0">BBL stagair </span>
+                                    <span class="work-tag">Aug 2021 -heden </span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 </main>
