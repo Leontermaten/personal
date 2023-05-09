@@ -22,6 +22,12 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/magnific-popup-options.js"></script>
     <script src="js/custom.js"></script>
+
+    <script type="text/javascript">
+        $(window).on('load', function () {
+            $('#ModalDirk').modal('show');
+        });
+    </script>
 </head>
 <body>
 
@@ -87,7 +93,7 @@
                 <div class="col-lg-7 col-12">
                     <div class="hero-text">
                         <div class="hero-title-wrap d-flex align-items-center mb-4">
-                            <img src="images/leon.jpg"
+                            <img src="{{url("images/leon.jpg")}}"
                                  class="avatar-image avatar-image " alt="">
 
                             <h1 class="hero-title ms-3 mb-0">Hey hallo!</h1>
@@ -117,70 +123,47 @@
         </svg>
     </section>
 
-
-    <section class="about section-padding" id="section_2">
+    <section class="services section-padding" id="section_2">
         <div class="container">
             <div class="row">
 
-                <div class="offset-4 col-lg-8 section-title-wrap d-flex justify-content-center align-items-center mb-4">
-                    <h2 class="text-white me-4 mb-0">Wie ben ik?</h2>
-                </div>
+                <div class="col-lg-12 col-12 mx-auto">
+                    <div class="col-lg-8 section-title-wrap d-flex justify-content-center align-items-center mb-5">
+                        <h2 class="text-white me-4 mb-0">Wie ben ik?</h2>
+                    </div>
 
-                <div class="row">
-                    <div class="about-thumb">
+                    <div class="row">
+                        <div class="col-lg-12.  col-12">
+                            <div class="services-thumb">
+                                <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
+                                    <h3 class="pt-2 mb-3">A little bit about me</h3>
+                                </div>
 
-
-                        <h3 class="pt-2 mb-3">A little bit about me</h3>
-
-                        <p>
-                            @php($age = \Carbon\Carbon::createFromFormat('Y-m-d', '2002-07-24')->age)
-                            Mijn naam is Leon ter Maten. Ik ben geboren op 24 Juli 2002 in Zwolle en ben dus {{$age}}
-                            jaar. Ik woon samen met mijn ouders, zusje en 2 katten in het centrum van Raalte.
-                            Ik ben opgeleid als Developer op Landstede Raalte. Ondanks dat dit beroep erg uitdagend en
-                            leuk is, kwam ik er tijdens mijn stage periode achter dat ik het contact met de klant erg
-                            miste. Ik werkte destijds al als teamleider bij Dirk van den Broek en heb hier in overleg
-                            met mijn leidinggevende ervoor gekozen om bij Dirk van den Broek de BBL-opleiding tot
-                            retail manager te volgen.
-                            <br/> <br/>
-                            Ik ben flexibel en leergierig ik kan goed samenwerken en ben stressbestendig.
-                            Het contact met klanten vind ik belangrijk en hier haal ik veel enthousiasme uit.
-                        </p>
-
+                                <p>
+                                    @php($age = \Carbon\Carbon::createFromFormat('Y-m-d', '2002-07-24')->age)
+                                    Mijn naam is Leon ter Maten. Ik ben geboren op 24 Juli 2002 in Zwolle en ben
+                                    dus {{$age}}
+                                    jaar. Ik woon samen met mijn ouders, zusje en 2 katten in het centrum van Raalte.
+                                    Ik ben opgeleid als Developer op Landstede Raalte. Ondanks dat dit beroep erg
+                                    uitdagend en
+                                    leuk is, kwam ik er tijdens mijn stage periode achter dat ik het contact met de
+                                    klant erg
+                                    miste. Ik werkte destijds al als teamleider bij Dirk van den Broek en heb hier in
+                                    overleg
+                                    met mijn leidinggevende ervoor gekozen om bij Dirk van den Broek de BBL-opleiding
+                                    tot
+                                    retail manager te volgen.
+                                    <br/> <br/>
+                                    Ik ben leergierig ingesteld ik ben stressbestendig en kan goed samenwerken.
+                                    Het contact met klanten vind ik belangrijk en hier haal ik veel enthousiasme uit.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>
-
-    {{--    <section class="services section-padding" id="section_3">--}}
-    {{--        <div class="container">--}}
-    {{--            <div class="row">--}}
-
-    {{--                <div class="col-lg-12 col-12 mx-auto">--}}
-    {{--                    <div class="col-lg-8 section-title-wrap d-flex justify-content-center align-items-center mb-5">--}}
-    {{--                          <h2 class="text-white ms-4 mb-0">Projecten</h2>--}}
-    {{--                    </div>--}}
-
-    {{--                    <div class="row">--}}
-    {{--                        <div class="col-lg-12.  col-12">--}}
-    {{--                            <div class="services-thumb">--}}
-    {{--                                <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">--}}
-    {{--                                    <h3 class="mb-0">Dirk van den Broek</h3>--}}
-    {{--                                </div>--}}
-
-    {{--                                <p>You may want to explore Too CSS for great collection of free HTML CSS--}}
-    {{--                                    templates.</p>--}}
-
-    {{--                                <a href="#" class="custom-btn custom-border-btn btn mt-3">Bekijk portfolio</a>--}}
-    {{--                            </div>--}}
-    {{--                        </div>--}}
-    {{--                    </div>--}}
-    {{--                </div>--}}
-    {{--            </div>--}}
-    {{--        </div>--}}
-    {{--    </section>--}}
 
     <section class="projects section-padding" id="section_4">
         <div class="container">
@@ -202,7 +185,7 @@
                             <h3 class="projects-title">Ivesa</h3>
                         </div>
 
-                        <img src="images/ivesa.jpg"
+                        <img src="{{url("images/ivesa.jpg")}}"
                              class="projects-image img-fluid" alt="">
                     </div>
                 </div>
@@ -216,7 +199,7 @@
                         </div>
 
 
-                        <img src="images/dirk.png"
+                        <img src="{{url("images/dirk.png")}}"
                              class="projects-image img-fluid" alt="">
                     </div>
                 </div>
@@ -229,7 +212,7 @@
                             <h3 class="projects-title">Stoppelhaene</h3>
                         </div>
 
-                        <img src="images/stoppelhaene.jpg"
+                        <img src="{{url("images/stoppelhaene.jpg")}}"
                              class="projects-image img-fluid" alt="">
 
                     </div>
@@ -242,7 +225,7 @@
 
                             <h3 class="projects-title">Ribs & Blues</h3>
                         </div>
-                        <img src="images/ribs-blues.jpg"
+                        <img src="{{url("images/ribs-blues.jpg")}}"
                              class="projects-image img-fluid" alt="">
                     </div>
                 </div>
@@ -254,7 +237,7 @@
 
                             <h3 class="projects-title">Bevrijdings festival</h3>
                         </div>
-                        <img src="images/BFO.png"
+                        <img src="{{url("images/BFO.png")}}"
                              class="projects-image img-fluid" alt="">
                     </div>
                 </div>
@@ -293,7 +276,7 @@
 
                                 <li class="contact-icon-item">
                                     <a class="contact-icon-link fa-solid fa-location-dot"></a>
-                                    Brugstraat 20, 8102ES Raalte
+                                    Brugstraat 20, 8102 ES Raalte
                                 </li>
                                 <li class="contact-icon-item">
                                     <a class="contact-icon-link fa-solid fa-calendar"></a>
@@ -462,7 +445,8 @@
                                 <div class="work-icon-item">
                                     <h6 class="mb-2">
                                         Dirk van den Broek
-                                        <i class="work-icon-link fa-solid fa-info"></i>
+                                        <i class="work-icon-link fa-solid fa-info" data-bs-toggle="modal"
+                                           data-bs-target="#ModalDirk"></i>
                                     </h6>
                                 </div>
                             </div>
@@ -487,7 +471,8 @@
                                 <div class="work-icon-item">
                                     <h6 class="mb-2">
                                         Ivesa
-                                        <i class="work-icon-link fa-solid fa-info"></i>
+                                        <i class="work-icon-link fa-solid fa-info" data-bs-toggle="modal"
+                                           data-bs-target="#ModalIvesa"></i>
                                     </h6>
                                 </div>
                             </div>
@@ -502,7 +487,8 @@
                                 <div class="work-icon-item">
                                     <h6 class="mb-2">
                                         Stoppelhaene
-                                        <i class="work-icon-link fa-solid fa-info"></i>
+                                        <i class="work-icon-link fa-solid fa-info" data-bs-toggle="modal"
+                                           data-bs-target="#ModalStoppelhaene"></i>
                                     </h6>
                                 </div>
                             </div>
@@ -518,7 +504,8 @@
                                 <div class="work-icon-item">
                                     <h6 class="mb-2">
                                         Ribs & Blues
-                                        <i class="work-icon-link fa-solid fa-info"></i>
+                                        <i class="work-icon-link fa-solid fa-info" data-bs-toggle="modal"
+                                           data-bs-target="#ModalRibs"></i>
                                     </h6>
                                 </div>
                             </div>
@@ -534,7 +521,8 @@
                                 <div class="work-icon-item">
                                     <h6 class="mb-2">
                                         Bevrijdings Festival Overijssel
-                                        <i class="work-icon-link fa-solid fa-info"></i>
+                                        <i class="work-icon-link fa-solid fa-info" data-bs-toggle="ModalBFO"
+                                           data-bs-target="#ModalBFO"></i>
                                     </h6>
                                 </div>
                             </div>
@@ -575,6 +563,160 @@
             </div>
         </div>
     </section>
+
+    <div class="modal fade" id="ModalDirk" tabindex="-1" aria-labelledby="ModalDirk"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <div class="col-lg-12 col-md-8 col-12">
+                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
+                                        <h3 class="pt-2 mb-3">Dirk van den Broek</h3>
+                                    </div>
+                                </div>
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                                    Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalIvesa" tabindex="-1" aria-labelledby="ModalIvesa"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <div class="col-lg-12 col-md-8 col-12">
+                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
+                                        <h3 class="pt-2 mb-3">Dirk van den Broek</h3>
+                                    </div>
+                                </div>
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                                    Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalStoppelhaene" tabindex="-1" aria-labelledby="ModalStoppelhaene"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <div class="col-lg-12 col-md-8 col-12">
+                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
+                                        <h3 class="pt-2 mb-3">Dirk van den Broek</h3>
+                                    </div>
+                                </div>
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                                    Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalRibs" tabindex="-1" aria-labelledby="ModalRibs"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <div class="col-lg-12 col-md-8 col-12">
+                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
+                                        <h3 class="pt-2 mb-3">Dirk van den Broek</h3>
+                                    </div>
+                                </div>
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                                    Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ModalBFO" tabindex="-1" aria-labelledby="ModalBFO"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+
+                                <div class="col-lg-12 col-md-8 col-12">
+                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
+                                        <h3 class="pt-2 mb-3">Dirk van den Broek</h3>
+                                    </div>
+                                </div>
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                                    Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
 <footer class="site-footer">
@@ -597,3 +739,4 @@
 </footer>
 </body>
 </html>
+

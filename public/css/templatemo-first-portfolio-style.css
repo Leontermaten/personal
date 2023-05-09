@@ -1099,7 +1099,9 @@ strong {
     padding: 0;
 }
 
-
+.modal-content{
+    border: 1px solid var(--secondary-color) !important;
+}
 /*---------------------------------------
   RESPONSIVE STYLES
 -----------------------------------------*/
